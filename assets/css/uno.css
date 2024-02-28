@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.player-hand {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    width: 120px; 
+    height: 180px; 
+    border-radius: 15px; 
+    margin: 5px; 
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: bold; 
+}
+
+.centerSection {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.centerPile {
+    width: 120px;
+    height: 180px;
+    border: 2px solid black;
+    display: inline-flex;
+    text-align: center;
+    line-height: 80px;
+    font-size: 80px;
+    background-color: #ccc;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; 
+}
